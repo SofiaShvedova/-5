@@ -37,6 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Задание 5-1.txt" />
+    <Content Include="Задание 5-2.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="geometry\" />
