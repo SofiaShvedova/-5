@@ -14,3 +14,9 @@ class Room:
     for i in self.wd:
       new_square -=i.square
     return new_square
+r1 = Room(6,3,2.7) # создание объекта класса Room
+print(r1.square)
+r1.addWD(1,1) # площадь окна
+r1.addWD(1,1) # площадь окна
+r1.addWD(1,2) # площадь двери
+print(r1.workSurface())
