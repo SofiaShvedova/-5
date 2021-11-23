@@ -1,5 +1,10 @@
 from composition import *
-r1 = Room.Room(6,3,2.7)
-r2 = Rolls.Rolls(3,4)
-r3 = Win_Door.Room(15,20)
-
+c = Roll1.Rolls(4,7)
+d = Room1.Room(6,3,2.7)
+e = Room1.Win_Door(3,5)
+d.addWD(1,1)
+d.addWD(1,1)
+d.addWD(1,2)
+print(d.square())
+print(d.workSurface())
+c.square(6,3,2.7)

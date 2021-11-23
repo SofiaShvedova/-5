@@ -21,13 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="composition\Room.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="composition\Rolls.py" />
-    <Compile Include="composition\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="composition\Roll1.py" />
+    <Compile Include="composition\Room1.py" />
     <Compile Include="geometry\planimetry.py">
       <SubType>Code</SubType>
     </Compile>
@@ -37,7 +32,12 @@
     <Compile Include="geometry\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ПР--5-1.py" />
+    <Compile Include="composition\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ПР--5-1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ПР--5-2.py">
       <SubType>Code</SubType>
     </Compile>
@@ -48,8 +48,8 @@
     <Content Include="Задание 5-2.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="composition\" />
     <Folder Include="geometry\" />
+    <Folder Include="composition\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
